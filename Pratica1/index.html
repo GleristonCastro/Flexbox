@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando com Flexbox</title>
+    <link rel="stylesheet" href="./praticando1.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Praticando Flexbox</h1>
+        <h2>flex direction</h2>
+        <div class="container">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Por padrão o flex-direction é em row, desta forma podemos notar o comportamento do container que fica alinhado à esquerda e os itens na vertical tem a altura 100%</p>
+        <div class="container2">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Desta forma é o row-reverse, conseguimos notar que o alinhamento será à direita e os itens terão a sua ordem invertida (4,3,2,1) </p>
+        <div class="container3">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Desta forma o flex-direction é em column, notamos que o alinhamento é no topo, no qual os itens ficam 100% devido a coluna.</p>
+        <div class="container4">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Desta forma o flex-direction é em column-reverse, o alinhamento vertical dar-se que os itens ficam no bootom e a ordem dos itens fica invertida (4,3,2,1)</p>
+        <h2>wrap, no-wrap e wrap-reverse</h2>
+        <div class="container5">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Por padrão o wrap é um comportamento flex no qual se o container "verde" é menor do quê os itens, o item é empurrado para a próxima linha. Famoso quebra de linha)</p>
+        <div class="container6">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Desta forma independente do tamanho do container, os itens continuam sendo exibidos lado a lado sem respeitar os limites impostos pelo o container</p>
+        <div class="container7">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Mesma coisa do wrap, porém os itens são exposto quebrando linha e de ordem invesa (4,3,2,1)</p>
+        <h2>flex-flow</h2>
+        <div class="container8">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Com o flex-flow é possível utilizar parâmetros do row, column e wrap, é uma forma de abreviar a escrita dos mais usados.</p>
+        <h2>justify-content</h2>
+        <div class="container h-flex-start">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Por padrão o flex-start trata-se do alinhamento dos itens na horizontal, no início.</p>
+        <div class="container h-flex-end">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Por padrão o flex-end trata-se do alinhamento dos itens na horizontal, no início.</p>
+        <div class="container h-center">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Por padrão o center trata-se do alinhamento dos itens na horizontal, no centro.</p>
+        <div class="container h-space-between">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>O space-between permite distribuir os itens nas duas extremidades ocupando horizontalmente e sem espaço nas extremidades.</p>
+        <div class="container h-space-around">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>O space-around permite distribuir os itens nas duas extremidades ocupando horizontalmente e com espaço menor nas extremidades.</p>
+        <div class="container h-space-evenly">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>O space-evenly distribui os itens uniformemente e aplicando espaços padrõs para antes e depois dos mesmos.</p>
+        <h2>align-itens</h2>
+        <div class="container v-flex-start">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Com o align-itens: flex-start é possível alinhar os itens verticalmente no topo</p>
+        <div class="container v-flex-end">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Com o align-itens: flex-end é possível alinhar os itens verticalmente no rodapé</p>
+        <div class="container v-flex-center">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Com o align-itens: flex-center é possível alinhar os itens verticalmente no centro</p>
+        <div class="container v-flex-stretch">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <p>Por padrão o stretch "estica todos os itens" na vertical, respeirando o min-width e max-width</p>
+        <div class="container v-flex-baseline">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item v-item-baseline">Item 4</div>
+        </div>
+        <p>Utilizando o baseline será possível alinhar todos os itens de acordo com suas bases.</p>
+        <h2>align-content</h2>
+        <div class="container wrap v-flex-start ac-flex-start">
+            <div class="item">Rio Branco</div>
+            <div class="item">Maceió</div>
+            <div class="item">Macapá</div>
+            <div class="item">Manaus</div>
+            <div class="item">Salvador</div>
+            <div class="item">Fortaleza</div>
+            <div class="item">Brasília</div>
+            <div class="item">Vitória</div>
+            <div class="item">Goiânia</div>
+            <div class="item">São Luis</div>
+            <div class="item">Cuiabá</div>
+            <div class="item">Campo Grande</div>
+            <div class="item">Belo Horizonte</div>
+            <div class="item">Belém</div>
+            <div class="item">João Pessoa</div>
+            <div class="item">Curitiba</div>
+            <div class="item">Recife</div>
+            <div class="item">Teresina</div>
+            <div class="item">Rio de Janeiro</div>
+            <div class="item">Natal</div>
+            <div class="item">Porto Alegre</div>
+            <div class="item">Porto Velho</div>
+            <div class="item">Boa Vista</div>
+            <div class="item">Florianópolis</div>
+            <div class="item">São Paulo</div>
+            <div class="item">Aracaju</div>
+            <div class="item">Palmas</div>
+        </div>
+        <p>Desta forma o conteúdo passa a ser distribuido e com quebra de linha dos itens, e sendo colocado no início à esquerda do container verde</p>
+        <div class="container wrap v-flex-start ac-flex-end">
+            <div class="item">Javascript</div>
+            <div class="item">HTML</div>
+            <div class="item">CSS</div>
+            <div class="item">Python</div>
+            <div class="item">Java</div>
+            <div class="item">C++</div>
+            <div class="item">C#</div>
+            <div class="item">Go</div>
+            <div class="item">React.JS</div>
+            <div class="item">MongoDB</div>
+            <div class="item">MySQL</div>
+            <div class="item">PostgreSQL</div>
+            <div class="item">Ruby</div>
+            <div class="item">PHP</div>
+            <div class="item">.NET</div>
+            <div class="item">Flutter</div>
+            <div class="item">Azure</div>
+            <div class="item">AWS</div>
+            <div class="item">Redis</div>
+            <div class="item">Oracle DB</div>
+            <div class="item">Laravel</div>
+            <div class="item">Angular</div>
+            <div class="item">Android</div>
+            <div class="item">Django</div>
+            <div class="item">Vue.js</div>
+            <div class="item">Appium</div>
+            <div class="item">Capybara</div>
+        </div>
+        <p>Desta forma o conteúdo passa a ser distribuido e com quebra de linha dos itens, e sendo colocado no fim à esquerda do container verde</p>
+        <div class="container wrap v-flex-start ac-flex-center">
+            <div class="item">Lítio</div>
+            <div class="item">Sódio</div>
+            <div class="item">Potássio</div>
+            <div class="item">Rubídio</div>
+            <div class="item">Césio</div>
+            <div class="item">Frâncio</div>
+            <div class="item">Berílio</div>
+            <div class="item">Magnésio</div>
+            <div class="item">Cálcio</div>
+            <div class="item">Estrôncio</div>
+            <div class="item">Bário</div>
+            <div class="item">Rádio</div>
+            <div class="item">Boro</div>
+            <div class="item">Alumínio</div>
+            <div class="item">Gálio</div>
+            <div class="item">Índio</div>
+            <div class="item">Tálio</div>
+            <div class="item">Nihônio</div>
+            <div class="item">Carbono</div>
+            <div class="item">Silício</div>
+            <div class="item">Germânio</div>
+            <div class="item">Estanho</div>
+            <div class="item">Livermório</div>
+            <div class="item">Flúor</div>
+            <div class="item">Cloro</div>
+            <div class="item">Bromo</div>
+            <div class="item">Iodo</div>
+        </div>
+        <p>Desta forma o conteúdo é centralizado</p>
+        <div class="container wrap v-flex-start ac-flex-stretch">
+            <div class="item">Game of Thrones</div>
+            <div class="item">Breaking Bad</div>
+            <div class="item">The Walking Dead</div>
+            <div class="item">Stranger Things</div>
+            <div class="item">Sherlock</div>
+            <div class="item">Família Soprano</div>
+            <div class="item">Lost</div>
+            <div class="item">Plantão Médico</div>
+            <div class="item">Prison Break</div>
+            <div class="item">House M.D.</div>
+            <div class="item">The Witcher</div>
+            <div class="item">Moon Knight</div>
+            <div class="item">The Boys</div>
+            <div class="item">A Escuta</div>
+            <div class="item">Black Mirror</div>
+            <div class="item">Sobrenatural</div>
+            <div class="item">Anne com E</div>
+        </div>
+        <p>O conteúdo é distribuido sem ocupar todo o espaço do container</p>
+        <div class="container wrap v-flex-start ac-flex-between">
+            <div class="item">América-MG</div>
+            <div class="item">Athletico-PR</div>
+            <div class="item">Atlético-GO</div>
+            <div class="item">Atlético-MG</div>
+            <div class="item">Avaí</div>
+            <div class="item">Botafogo</div>
+            <div class="item">Ceará</div>
+            <div class="item">Corinthians</div>
+            <div class="item">Coritiba</div>
+            <div class="item">Cuiabá</div>
+            <div class="item">Flamengo</div>
+            <div class="item">Fluminense</div>
+            <div class="item">Fortaleza</div>
+            <div class="item">Goiás</div>
+            <div class="item">Internacional</div>
+            <div class="item">Juventude</div>
+            <div class="item">Palmeiras</div>
+            <div class="item">Red Bull Bragantino</div>
+            <div class="item">Santos</div>
+            <div class="item">São Paulo</div>
+        </div>
+        <p>O conteúdo é distribuido ocupando toda o container com direção vertical</p>
+        <div class="container wrap v-flex-start ac-flex-around">
+            <div class="item">um</div>
+            <div class="item">dois</div>
+            <div class="item">três</div>
+            <div class="item">qutro</div>
+            <div class="item">cinco</div>
+            <div class="item">seis</div>
+            <div class="item">sete</div>
+            <div class="item">oito</div>
+            <div class="item">nove</div>
+            <div class="item">dez</div>
+            <div class="item">onze</div>
+            <div class="item">doze</div>
+            <div class="item">treze</div>
+            <div class="item">quatorze</div>
+            <div class="item">quize</div>
+            <div class="item">dezesseis</div>
+            <div class="item">dezessete</div>
+            <div class="item">dezoito</div>
+            <div class="item">dezenove</div>
+            <div class="item">vinte</div>
+            <div class="item">vinte e um</div>
+        </div>
+        <p>Distribuido de forma que o conteúdo tenha espaço no inicio, entre os itens e no final</p>
+        <hr>
+        <h2>order</h2>
+        <div class="container10 wrap h-center v-flex-start ac-flex-around">
+            <div class="item order0">-1</div>
+            <div class="item order4">0</div>
+            <div class="item order-1">1</div>
+            <div class="item order2">2</div>
+            <div class="item order1">3</div>
+            <div class="item order3">4</div>
+        </div>
+        <p>Com o order podemos determinar a ordem como os itens devem aparecer no container, no HTML original -1, 0, 1, 2, 3, 4</p>
+        <h2>flex-grow</h2>
+        <div class="container10 wrap h-center v-flex-start ac-flex-around">
+            <div class="item grow2">0</div>
+            <div class="item">1</div>
+            <div class="item grow1">2</div>
+            <div class="item">3</div>
+            <div class="item grow1">4</div>
+        </div>
+        <p>Permite o flex item crescer confome especificado, 1 seria espaço remanescente, 2 o dobro dos demais e assim sucessivamente</p>
+
+        <h2>flex-shrink</h2>
+        <div class="container10 h-space-between">
+            <div class="item">0</div>
+            <div class="item">11</div>
+            <div class="item shrink">2222</div>
+            <div class="item">333</div>
+            <div class="item">44444</div>
+        </div>
+        <p>Permite a escolha de um item que pode encoler em relação aos demais flex itens</p>
+
+        <h2>flex-basis</h2>
+        <div class="container10 h-space-between">
+            <div class="item">0</div>
+            <div class="item">1</div>
+            <div class="item basis">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+        <p>Com o basis é possível definir o tamanho padrão do elemento antes que o espaço demais seja distribuido pelo o container, neste exemplo utilizei 20% no item "2"</p>
+
+        <h2>flex</h2>
+        <div class="container10 h-space-between">
+            <div class="item">0</div>
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item flex">3</div>
+            <div class="item">4</div>
+        </div>
+        <p>Flex é a forma que podemos abreviar o flex-grow, flex-shrink e flex-basis. Neste exemplo utilizei flex: 0 1 50%</p>
+
+        <h2>align-self</h2>
+        <div class="container h-space-between">
+            <div class="item align-self-flex-start">0</div>
+            <div class="item align-self-flex-end">1</div>
+            <div class="item align-self-flex-center">2</div>
+            <div class="item align-self-flex-baseline">3</div>
+            <div class="item align-self-flex-stretch">4</div>
+        </div>
+        <p>Permite sobrescrever configuração de algum item. Neste exemplo usamos todas as opções.</p>
+
+    </div>
+    
+</body>
+</html>

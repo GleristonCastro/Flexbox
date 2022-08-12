@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.main {
+    width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+}
+.container, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container10{
+    background-color: #d4edda;
+    height: 500px;
+    display: flex;
+    border: 1px solid #c3e6cb;
+    margin-top: 50px;
+}
+
+
+.item{
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.container2{
+    flex-direction: row-reverse;
+}
+
+.container3{
+    flex-direction: column;
+}
+
+.container4{
+    flex-direction: column-reverse;
+}
+
+.container5, .container6, .container7, .container8 {
+    width: 250px;
+}
+.container5{
+    flex-wrap: wrap;
+}
+
+.container6{
+    flex-wrap: nowrap;
+}
+
+.container7{
+    flex-wrap: wrap-reverse;
+}
+
+.container8{
+    flex-flow: column no-wrap;
+}
+
+.h-flexs-tart{
+    justify-content: flex-start;
+}
+
+.h-flex-end{
+    justify-content: flex-end;
+}
+
+.h-center{
+    justify-content: center;
+}
+
+.h-space-between {
+    justify-content: space-between;
+}
+
+.h-space-around {
+    justify-content: space-around;
+}
+
+.h-spacee-venly {
+    justify-content: space-evenly;
+}
+
+.v-flex-start {
+    align-items: flex-start;
+}
+
+.v-flex-end {
+    align-items: flex-end;
+}
+
+.v-flex-center {
+    align-items: center;
+}
+
+.v-flex-stretch {
+    align-items: stretch;
+}
+
+.v-flex-baseline {
+    align-items: baseline;
+}
+
+.v-item-baseline {
+    padding-top: 80px;
+}
+
+.ac-flex-start {
+    align-content: flex-start;
+}
+
+.ac-flex-end {
+    align-content: flex-end;
+}
+
+.ac-flex-center {
+    align-content: center;
+}
+
+.ac-flex-stretch {
+    align-content: stretch;
+}
+
+.ac-flex-between {
+    align-content: space-between;
+}
+
+.ac-flex-around {
+    align-content: space-around;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.container10 {
+    height: 100px !important;
+}
+
+.order-1{
+    order:-1;
+}
+.order0{
+    order:0;
+}
+.order1{
+    order:1;
+}
+.order2{
+    order:2;
+}
+.order3{
+    order:3;
+}
+.order4{
+    order:4;
+}
+
+.grow1{
+    flex-grow: 1;
+}
+
+.grow2{
+    flex-grow: 2;
+}
+
+.shrink{
+    flex-shrink: 2;
+    width: 100%;
+}
+
+.basis {
+    flex-basis: 20%;
+}
+
+.flex {
+    flex: 0 1 50%;
+}
+
+.align-self-flex-start{
+    align-self: flex-start;
+}
+
+.align-self-flex-end{
+    align-self: flex-end;
+}
+
+.align-self-flex-center{
+    align-self: center;
+}
+
+.align-self-flex-baseline{
+    align-self: baseline;
+}
+
+.align-self-flex-stretch{
+    align-self: stretch;
+}
