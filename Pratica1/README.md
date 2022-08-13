@@ -4,7 +4,7 @@ Este exercício prático teve inspiração após ser incentivado pelo o bootcamp
 
 > [Ver resultado do projeto](https://gleristoncastro.github.io/Flexbox/Pratica1/)
 
-Agradecimentos/Créditos:
+### Agradecimentos/Créditos:
 
 - [Dio](https://web.dio.me/track/impulso-javascript-evolution)
 - [Impulso](https://impulso.network/)
