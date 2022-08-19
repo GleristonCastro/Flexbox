@@ -1,0 +1,12 @@
+# Praticando conceitos de flexbox
+
+Em mais um vídeo de prática com flexbox, reproduzi e apliquei melhorias no código e no conjunto geral do projeto prático. Utilizei imagens conceitos de smartphones do Yanko Design. 
+
+> [Ver resultado do projeto](https://gleristoncastro.github.io/Flexbox/Pratica5/)
+
+### Agradecimentos/Créditos:
+
+- [Násser Yousef Ali](https://www.youtube.com/watch?v=d-fUTdDgHt8)
+- [Yanko Design](https://www.yankodesign.com/2022/02/25/top-10-smartphone-concepts-that-are-better-than-the-iphone-13/)
+- [Google Fonts](https://fonts.google.com/)
+- [Ionicons](https://ionic.io/)
