@@ -2,7 +2,7 @@
 
 Este exercício prático teve inspiração após ser incentivado pelo o bootcamp da Dio (Patrocinado pela a Impulso). E a documentação através de uma matéria do blog da Alura.
 
-[![Preview do projeto](./img/screenshot.avif "Clique para acesasr o preview do Projeto")](https://gleristoncastro.com.br/portfolio/github/preview/Flex-Grid/Pratica1/)
+[![Preview do projeto](./screenshot.avif "Clique para acesasr o preview do Projeto")](https://gleristoncastro.com.br/portfolio/github/preview/Flex-Grid/Pratica1/)
 
 _Para visualizar o preview do projeto clique na imagem acima._
 ______________________
