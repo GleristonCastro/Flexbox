@@ -2,7 +2,10 @@
 
 Em mais um vídeo de prática com flexbox, reproduzi e apliquei melhorias no código e no conjunto geral do projeto prático. Utilizei imagens conceitos de smartphones do Yanko Design. 
 
-> [Ver resultado do projeto](https://gleristoncastro.github.io/Flexbox/Pratica5/)
+[![Preview do projeto](./img/screenshot.avif "Clique para acesasr o preview do Projeto")](https://gleristoncastro.com.br/portfolio/github/preview/Flex-Grid/Pratica5/)
+
+_Para visualizar o preview do projeto clique na imagem acima._
+______________________
 
 ### Agradecimentos/Créditos:
 

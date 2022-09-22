@@ -2,13 +2,17 @@
 
 Após o bootcamp Impulso FullStak da DIO, passei a procurar atividades diversas e de acordo com o conteúdo ministrado. Portanto, através do canal do Youtube NodeStudio assisti e passei a replicar o código e aprimorando o HTML/CSS com meus conhecimentos.
 
-> [Ver resultado do projeto](https://gleristoncastro.github.io/Flexbox/Pratica2/)
+[![Preview do projeto](./img/screenshot.avif "Clique para acesasr o preview do Projeto")](https://gleristoncastro.com.br/portfolio/github/preview/Flex-Grid/Pratica2/)
+
+_Para visualizar o preview do projeto clique na imagem acima._
+______________________
 
 ### Inspiração
 
 - [Curso de Flexbox - Node Studio](https://www.youtube.com/playlist?list=PLwXQLZ3FdTVGjLmjwfRc0Q9TA5U-PCWp4)
 
 Diferentemente do tutorial coloquei o modo de importação dos css externos diretamente no css pelo **@import**. O objetivo era deixar o HTML mais limpo possível.
+______________________
 
 ### Apliquei algumas melhorias no código.
 
@@ -70,6 +74,7 @@ Depois:
     background-image: url(./img/itacace-04.jpg);
 }
 ```
+______________________
 
 ### Agradecimentos/Créditos:
 
@@ -77,6 +82,7 @@ Depois:
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 
+______________________
 ### Dificuldades
 
 Não apresentei dificuldades importante, didática muito boa e já com algum conhecimento, consegui desempenhar rapidamente a atividade proposta.

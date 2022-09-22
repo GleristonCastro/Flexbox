@@ -2,7 +2,10 @@
 
 Ao assistir no youtube vídeos manipulando flexbox, decidi por conta própria encarar o desafio e fazer uma forma alternativa, diferente do tutorial exposto. Consultando a documentação e com base em projetos anteriores. Diferentemente do vídeo do Youtube deixei o Layout responsivo e alterei o menu para um ícone da font awesome.
 
-> [Ver resultado do projeto](https://gleristoncastro.github.io/Flexbox/Pratic3/)
+[![Preview do projeto](./img/screenshot.avif "Clique para acesasr o preview do Projeto")](https://gleristoncastro.com.br/portfolio/github/preview/Flex-Grid/Pratica3/)
+
+_Para visualizar o preview do projeto clique na imagem acima._
+______________________
 
 ### Inspiração:
 
